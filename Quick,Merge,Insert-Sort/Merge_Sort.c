@@ -44,10 +44,10 @@ void mergesort(int a[], int low, int high)
     if(low == high)
         return;
 
-    pivot  = (low + high) / 2;
+    pivot  = (low + high) / 2;//calculating the pivot value
 
-    mergesort(a, low, pivot);
-    mergesort(a, pivot + 1, high);
+    mergesort(a, low, pivot);//lower half
+    mergesort(a, pivot + 1, high);//Upper half
 
     for(i = 0; i < length; i++)
         working[i] = a[low + i];
@@ -61,7 +61,7 @@ void mergesort(int a[], int low, int high)
 
             if(merge1 <= pivot - low)
 
-                if(working[merge1] > working[merge2])
+                if(working[merge1] > working[merge2])//sorting 
                     a[i + low] = working[merge2++];
 
                 else
