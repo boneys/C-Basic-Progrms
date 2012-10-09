@@ -1,3 +1,5 @@
 Hai, 
 
-   These are some of my basic programs in c
+   some basic programs in c
+   
+Thank you

@@ -38,7 +38,7 @@ void main( )
 
 	limit++;
 
-	for ( count1 = 0 ; count1 <= limit ; printf ( "%d ", arr[count1] ),count1++ );/*Lop for printing */		
+	for ( count1 = 0 ; count1 <= limit ; printf ( "%d ", arr[count1] ),count1++ );/*Loop for printing */		
 
 	printf("\n");
 }
